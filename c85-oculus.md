@@ -125,10 +125,10 @@ const float texAspect = 1.0;
 
 vec2 calcTexCoord(vec2 texCoord) {
   vec2 scale_factor = vec2(scaleR * 2.0,scaleR * renderAspect);
-  vec2 d = ( texCoord - vec2(0.25 , 0.5) ) * scale_factor;
+  vec2 d = ( texCoord - vec2(0.25,0.5) ) * scale_factor;
   float dd = d.x * d.x + d.y*d.y;
   vec2 t1 = d * (0.8 + 1.20 * dd + 2.00 * dd*dd);
-  return t1 * vec2(1.0 , 1.0) + vec2(0.5,0.5);
+  return t1 * vec2(1.0,1.0) + vec2(0.5,0.5);
 }
 
 void main(){
