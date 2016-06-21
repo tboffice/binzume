@@ -16,7 +16,7 @@
 
 　ちなみに今回はAndroidのアプリ開発の基本的な話などは省きます．ご了承ください． [^2]
 
-[^2]: アプリ開発を始めたい場合はAndroid Deveropersへhttp://developer.android.com/
+[^2]: アプリ開発を始めたい場合はAndroidDeveropersへhttp://developer.android.com/
 
 
 ### NDKとの比較
