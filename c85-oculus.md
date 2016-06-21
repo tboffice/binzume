@@ -249,19 +249,18 @@ if(event.sensor.getType() == Sensor.TYPE_GYROSCOPE) {
 
 　今回使った図面やコードは、GitHubのリポジトリ [^8] で公開する予定です。
 
-[^1]: Oculus VR [http://www.oculusvr.com](http://www.oculusvr.com)/
+[^1]: http://www.oculusvr.com
 
-[^2]: PerfHUD ES
-    [https://developer.nvidia.com/nvidia-perfhud-es](https://developer.nvidia.com/nvidia-perfhud-es)
+[^2]: https://developer.nvidia.com/nvidia-perfhud-es
 
-[^3]: Adreno Profiler [http://goo.gl/bDEhvx](http://goo.gl/bDEhvx)
+[^3]: http://goo.gl/bDEhvx
 
-[^4]: MikuMikuStudio [http://sourceforge.jp/projects/mikumikustudio/wiki/FrontPage](http://sourceforge.jp/projects/mikumikustudio/wiki/FrontPage)
+[^4]: http://sourceforge.jp/projects/mikumikustudio/wiki/FrontPage
 
-[^5]: MikuMikuDroid [http://sourceforge.jp/projects/mikumikudroid](http://sourceforge.jp/projects/mikumikudroid)
+[^5]: http://sourceforge.jp/projects/mikumikudroid
 
 [^6]: 今回、確認用に使わせていただいたモデルは、モデルはLat式ミクです。ミクは天使ですね！
 
 [^7]: えっちなのはいけないと思います
 
-[^8]: GitHub [https://github.com/binzume/oculus7](https://github.com/binzume/oculus7)
+[^8]: https://github.com/binzume/oculus7
