@@ -16,7 +16,7 @@
 
 　ちなみに今回はAndroidのアプリ開発の基本的な話などは省きます．ご了承ください． [^2]
 
-[^2]: アプリ開発を始めたい場合はAndroid Deveropersへ http://developer.android.com/
+[^2]: アプリ開発を始めたい場合はAndroid Deveropersへhttp://developer.android.com/
 
 
 ### NDKとの比較
@@ -102,7 +102,7 @@ void hello(int a, int b) {
 
 　文法はCですが，いくつか見慣れないものが出てきます．まずプリプロセッサのpragma命令でRenderScriptのコンパイルに必要な情報を記述します．
 
-　「version」は今のところ1固定です．「rs java_package_name」はJavaのスタブクラスが作られるパッケージで，rsファイルもこのパッケージのディレクトリに配置しておきましょう．
+　「version」は今のところ1固定です．「rs java\_package\_name」はJavaのスタブクラスが作られるパッケージで，rsファイルもこのパッケージのディレクトリに配置しておきましょう．
 
 　rsDebug()はrs_debug.rshというヘッダファイルで宣言されている関数で，ログを出力します．logcatで見れるので，いわゆるprintfデバッグをするときにお世話になります．
 
@@ -162,7 +162,7 @@ import android.util.Log;
 
 　あと宣伝ですが，拙作の「自炊本リーダー(仮) [^3] 」というアプリでも画像処理にRenderScriptを使ってます．色々不完全ですが，作った時点では巷にある同じようなアプリの中では一番軽快に動作するようになりました(その時点で見つけたアプリの中ではですが)
 
-[^3]: 自炊本リーダー(仮) https://play.google.com/store/apps/details?id=net.binzume.android.bookreader
+[^3]: https://play.google.com/store/apps/details?id=net.binzume.android.bookreader
 
 
 ## 実行速度
@@ -233,4 +233,4 @@ void root(uchar4 * v_out, uint32_t x, uint32_t y) {
 
 　今回使ったコード類はGitHubのリポジトリ [^4] で公開していますので，興味を持った方はそちらもご覧ください．
 
-[^4]: GitHub https://github.com/binzume/c84-android-renderscript
+[^4]: https://github.com/binzume/c84-android-renderscript
